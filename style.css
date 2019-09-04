@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* start navbar*/
+.navbarr .uk-navbar-container:not(.uk-navbar-transparent) {
+    background: black;
+}
+.navbarr .uk-logo {
+    color: yellow;
+}
+.navbarr .uk-navbar-right span {
+    color:white;
+}
+.navbarr .uk-navbar-right {
+    margin-right: 15px;
+}
+/* end navbarr */
+/* start main */
+.uk-margin {
+    margin-bottom: 0;
+}
+.main {
+    background-image: url('p.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main .uk-section-default {
+    opacity: 0.7;
+    background-color: #e1c340
+}
+.main .uk-section-default h3 {
+    color:black;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main .uk-section-default p {
+    color:black;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif
+}
+.main .uk-button {
+    background-color:black;
+    color:white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif
+}
+/* end main*/
+/* start offer */
+.offer h3 {
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.offer p {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+.offer .uk-button {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 3px;
+}
+/* end offer */
+/* start watch */
+.watch {
+    background-image: url('lab1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.watch .uk-section-default {
+    background-color: black;
+    opacity: 0.8;
+}
+.watch .uk-section-default  p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.watch .uk-section-default span {
+    color: yellow;
+}
+.watch .uk-button {
+ background-color: yellow;
+    color:black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+/*end watch */
+/* start cards */
+.cards h3 {
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cards p {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* end cards */
+/* start footer */
+.footer .uk-navbar-container:not(.uk-navbar-transparent) {
+    background: black;
+}
+.footer i{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.footer .uk-logo {
+    margin-left: 30px;
+}
+/* end footer */
